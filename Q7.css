@@ -1,0 +1,106 @@
+
+body {
+    background-color: ivory;
+    display: flex;
+    justify-content: center;
+    height:100%;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}
+.id-card {
+    display:flex;
+}
+.id-card-left, .id-card-right {
+    background-color: white;
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    box-shadow: 0 0 10px;
+    padding: 20px;
+    justify-content: space-between;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.id-card-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5px;
+}
+.left-middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.left-footer {
+    width: 100%;
+}
+.footer-row {
+    display: flex;
+    margin-top: 10px;
+}
+.footer-row strong {
+    width: 150px;
+}
+.footer-row span {
+    width: 20px;
+}
+.id-card-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 5px;
+}
+.right-header {
+    text-align: right;
+}
+.right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.right-address-row, .right-date-row {
+    display: flex;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.right-address-row strong, .right-date-row strong {
+    width: 100px;
+    text-align: left;
+}
+.right-address-row span ,.right-date-row span{
+    width: 15px;
+}
+.signature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.right-footer {
+    text-align: right;
+}
+@media (max-width: 800px) {
+    .id-card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .id-card-left, .id-card-right {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .id{
+        margin-right: 5px;
+    }
+    .right-footer {
+        align-self: center;
+    }
+}

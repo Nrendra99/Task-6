@@ -1,0 +1,120 @@
+
+        body {
+            background-color: antiquewhite;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            height: 100%;
+        }
+        .aadhar-card {
+            background-color: white;
+            width: 650px;
+            border-radius: 25px;
+            box-shadow: 0 0 10px rgb(0, 0, 0);
+            display: flex;
+            flex-direction: column;
+        }
+        .header {
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .logo{
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+        .flag{
+            width: 500px;
+        }
+        .aadhar-body{
+            display: flex;
+            padding: 10px;
+            border-bottom:2px solid rgb(235, 11, 11) ;
+        }
+        .Pic{
+            display: flex;
+            align-items:flex-end;
+        }
+        .Pic img{
+            margin-left: 20px;
+            width: 150px;
+            height: 175px;
+        }  
+        .aadhar-details{
+            width: 300px;
+            margin-left: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .details{
+            margin-bottom: 10px;
+        }
+        .number{
+            margin-top: 55px;
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+            letter-spacing: 2px; 
+        }
+        .Qr{
+            display: flex;
+            align-items:flex-end;
+        }
+        .Qr img{
+           height: 120px;
+         }
+        .footer {
+            margin: 10px;
+            width: 100%;
+            text-align: center;
+        }
+        .slogan{
+            font-size: 24px;
+            color: rgb(235, 11, 11);
+        }
+        .slogan-b{
+            font-size: 24px;
+            color: black; 
+        }
+        @media (max-width: 650px) {
+            .aadhar-card {
+                width: 100%;
+                flex-direction: column;
+            }
+            .header {
+                flex-direction: column;
+                align-items: center;
+            }
+            .flag{
+                width: 300px;
+            }
+            .aadhar-body {
+                flex-direction: column;
+                align-items: center;
+            }
+            .Pic img {
+                margin: 0;
+                width: 100px;
+                height: 115px;
+            }
+            .aadhar-details {
+                width: 100%;
+                margin-top: 10px;
+                margin-left: 0;
+                align-items: center;
+                text-align: center;
+            }
+            .Qr {
+                align-items: center;
+                margin-top: 20px;
+            }
+            .Qr img {
+                height: 80px;
+            }
+            .number {
+                margin-top: 20px;
+                font-size: 20px;
+            }
+           
+        }
+    
